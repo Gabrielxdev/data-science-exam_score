@@ -45,11 +45,64 @@ O conjunto de dados contém registros fictícios de estudantes com os seguintes 
 
 ---
 
+## 📦 Como executar o projeto localmente
 
-## 📷 Exemplo do app
+1. Clone o repositório:
 
-![Interface do app Streamlit](previsaonota.png)
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+```
 
+2. Crie um ambiente virtual (opcional, mas recomendado):
+
+```bash
+python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # Linux/macOS
+```
+
+3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute a aplicação:
+
+```bash
+streamlit run app.py
+```
+
+5. Acesse no navegador:
+
+```
+http://localhost:8501
+```
 
 ---
 
+## 📷 Exemplo do app
+
+![Interface do app Streamlit](previsao_nota.png)
+
+---
+
+## 🛠️ Possíveis melhorias
+
+* Adicionar outros modelos de ML para comparação (Decision Tree, Random Forest)
+* Validar desempenho com métricas (RMSE, R²)
+* Melhorar a interface visual com CSS customizado
+* Permitir upload de CSV com múltiplos alunos para previsão em lote
+
+---
+
+## 📚 Créditos
+
+Projeto desenvolvido por Gabriel Thiago como parte dos estudos em **Ciência de Dados** e **Machine Learning prático com Streamlit**.
+
+---
+
+## 📎 Licença
+
+Este projeto é livre para uso educacional.
