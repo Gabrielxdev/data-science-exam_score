@@ -48,7 +48,7 @@ O conjunto de dados contém registros fictícios de estudantes com os seguintes 
 
 ## 📷 Exemplo do app
 
-![Interface do app Streamlit](previsao_nota.png)
+![Interface do app Streamlit](previsaonota.png)
 
 
 ---
