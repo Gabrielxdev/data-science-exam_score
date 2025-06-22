@@ -32,7 +32,7 @@ A proposta do projeto é demonstrar, de forma prática, como técnicas de **regr
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 O conjunto de dados contém registros fictícios de estudantes com os seguintes atributos:
 
